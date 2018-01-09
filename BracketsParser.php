@@ -11,6 +11,7 @@ namespace BracketsParser;
  */
 use BracketsParser\Exceptions\InvalidArgumentException;
 
+
 Class BracketsParser
 {
 
