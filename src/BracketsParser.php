@@ -50,6 +50,7 @@ Class BracketsParser
             echo $e->getMessage() . '<br />';
             return false;
         }
+
         return true;
     }
 }
