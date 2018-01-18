@@ -1,7 +1,7 @@
 {
     "name": "umyskov/brackets-parser",
     "type": "library",
-    "license": "GNU",
+    "license": "mit",
     "authors": [
         {
             "name": "Michael Umyskov",
