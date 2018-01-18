@@ -1,14 +1,13 @@
 {
     "name": "umyskov/brackets-parser",
     "type": "library",
-    "license": "mit",
+    "license": "MIT",
     "authors": [
         {
             "name": "Michael Umyskov",
             "email": "m.umyskov@list.ru"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": ">=7.0.0"
     },
