@@ -24,12 +24,12 @@ Class BracketsParser
     {
         try {
             if (strlen($data) == 0) {
-                throw new InvalidArgumentException('Пустая строка на входе!');
+                throw new InvalidArgumentException('An empty string given!');
             }
             $i = 0;
             for ($x = 0; $x < strlen($data); $x++) {
                 if (!in_array($data[$x], ['(', ')', ' ', "\r", "\n", "\t"])) {
-                    throw new InvalidArgumentException('Некорректный символ в строке!');
+                    throw new InvalidArgumentException('Incorrect character in the string!');
                 }
                 if ($data[$x] == '(') {
                     $i++;
@@ -47,7 +47,7 @@ Class BracketsParser
                 return false;
             }
         } catch (InvalidArgumentException $e) {
-            echo $e->getMessage() . '<br />';
+            echo $e->getMessage() . "\n";
             return false;
         }
         return true;
